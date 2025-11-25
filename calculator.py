@@ -1,5 +1,3 @@
-# calculator.py
-
 def add(a, b):
     """Return the sum of two numbers."""
     return a + b
@@ -10,11 +8,14 @@ def subtract(a, b):
 
 def multiply(a, b):
     """Return the product of two numbers."""
-    # Intentionally incorrect for Exercise 1: return sum instead of product
-    return a + b
+    return a * b
 
 def divide(a, b):
     """Return the quotient of two numbers."""
     if b == 0:
         raise ValueError("Cannot divide by zero")
     return a / b
+
+def power(a, b):
+    """Return a raised to the power of b."""
+    return a ** b
