@@ -10,7 +10,8 @@ def subtract(a, b):
 
 def multiply(a, b):
     """Return the product of two numbers."""
-    return a * b
+    # Intentionally incorrect for Exercise 1: return sum instead of product
+    return a + b
 
 def divide(a, b):
     """Return the quotient of two numbers."""
